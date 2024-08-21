@@ -49,6 +49,7 @@ With a cursor from the connection, we are now able to INSERT records into the lo
 
 ## Stage 2: Crawling Coding
 
+## Stage 3: Data Analysis
 
+## Extra SQL practice
 
-## SQL practice
