@@ -93,7 +93,20 @@ for item in items:
 
 ```
 
+And to INSERT data into table, we need to pair the value with the column names
+
+```python
+    sql = "INSERT INTO repositories (repo_name, language, stars, forks, today_stars) VALUES (%s, %s, %s, %s, %s)"
+    val = (repo_name, language, stars, forks, today_stars)
+    cursor.execute(sql, val)
+
+# commit change and close cursor
+cnx.commit()
+cursor.close()
+```
 ## Stage 3: Data Analysis
+TBC
 
 ## Extra SQL practice
+
 
