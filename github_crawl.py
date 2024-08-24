@@ -14,7 +14,7 @@ soup = BeautifulSoup(html_content, "html.parser")
 cnx = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='413413',
+    password='******',
     database='github_data'
 )
 
